@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.outercontainer {
+  display: flex;
+  gap: 200px; /* Space between the divs */
+}
+
+.innercontainer {
+  width: 600px;
+  height: 200px;
+  background-color: yellow;
+  display: flex;
+}
+
+.fullSizeContainer {
+  width: auto;
+  align-items: center;
+  background-color: green;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20;
+  background-color: lightskyblue;
+}
+
+.alignToCentre {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.alignTextBox {
+  display: flex;
+  gap: 50px;
+  flex-direction: row;
+  padding: 50;
+  background-color: lightblue ;
+  flex: 1;
+}
+
+.textBoxStyle {
+  flex: 1;
+}
+
+
+.delete-button {
+  background-image: url('./bin.png'); /* Path to your bin icon */
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px 20px; /* Adjust the size of the icon */
+  border: none;
+  cursor: pointer;
+  width: 30px; /* Adjust the button size */
+  height: 30px;
+}
+
+.search-button {
+  background-image: url('./magnifyingLens.png'); /* Path to your bin icon */
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px 20px; /* Adjust the size of the icon */
+  border: none;
+  cursor: pointer;
+  width: 30px; /* Adjust the button size */
+  height: 30px;
+}
+
+
+
+.div1, .div2 {
+  flex: 1; /* Makes the divs take equal width */
+  padding: 20px;
+}
+
+.div1 {
+  background-color: lightblue;
+}
+
+.div2 {
+  background-color: lightcoral;
+}
+
